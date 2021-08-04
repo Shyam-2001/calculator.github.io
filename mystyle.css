@@ -1,0 +1,66 @@
+
+.con{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.dec{
+	width: 350px;
+	height: 500px;
+font-weight: bold;
+font-size: 15px;
+color: white;
+background-color:#F08080;
+border-radius: 10px;
+}
+.dec input{
+
+width: 100%;
+  padding: 20px 20px;
+	background-color: 	#87CEEB;
+	outline: none;
+	border: none;
+
+}
+.dec input[type=text]{
+	color: white;
+	font-size: 30px;
+}
+.dec button{
+	height: 80px;
+	width: 80px;
+	margin: 2px;
+	color: white;
+	font-size: 30px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+.dec button:hover{
+	background-color: black;
+	cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+.dec{
+	width: 320px;
+	height: 500px;
+font-weight: bold;
+font-size: 15px;
+color: white;
+background-color:#F08080;
+border-radius: 10px;
+}
+.dec button{
+	height: 80px;
+	width: 72px;
+	margin: 2px;
+	color: white;
+	font-size: 30px;
+	background-color: transparent;
+	border: none;
+	padding-left: 10px;
+	outline: none;
+}
+}
